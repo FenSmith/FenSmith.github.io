@@ -1,16 +1,26 @@
 {
-  "name"              : "PWA Website",
-  "short_name"        : "PWA",
+  "name"              : "益投资",
+  "short_name"        : "益投资",
   "description"       : "An example website implementing Progressive Web App technology.",
-  "start_url"         : "http://www.zcool.com.cn/work/ZNzMxNTI1Mg==.html",
+  "start_url"         : "index.html",
   "display"           : "standalone",
   "orientation"       : "any",
-  "background_color"  : "#ACE",
+  "background_color"  : "blue",
   "theme_color"       : "#ACE",
   "icons": [
+    {
+      "src"           : "/images/logo/logo016.png",
+      "sizes"         : "16x16",
+      "type"          : "image/png"
+    },
 		{
       "src"           : "/images/logo/logo072.png",
       "sizes"         : "72x72",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "/images/logo/logo144.png",
+      "sizes"         : "144x144",
       "type"          : "image/png"
     },
 		{
