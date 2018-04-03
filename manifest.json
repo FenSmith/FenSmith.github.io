@@ -2,7 +2,7 @@
   "name"              : "PWA Website",
   "short_name"        : "PWA",
   "description"       : "An example website implementing Progressive Web App technology.",
-  "start_url"         : "/",
+  "start_url"         : "http://www.zcool.com.cn/work/ZNzMxNTI1Mg==.html",
   "display"           : "standalone",
   "orientation"       : "any",
   "background_color"  : "#ACE",
