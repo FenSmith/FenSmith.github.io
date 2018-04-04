@@ -4,7 +4,7 @@
   "description"       : "An example website implementing Progressive Web App technology.",
   "start_url"         : "index.html",
   "display"           : "standalone",
-  "orientation"       : "landscape",
+  "orientation"       : "portrait",
   "background_color"  : "blue",
   "theme_color"       : "gray",
   "icons": [
