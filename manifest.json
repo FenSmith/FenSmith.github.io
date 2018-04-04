@@ -3,10 +3,10 @@
   "short_name"        : "益投资",
   "description"       : "An example website implementing Progressive Web App technology.",
   "start_url"         : "index.html",
-  "display"           : "fullscreen",
+  "display"           : "standalone",
   "orientation"       : "any",
   "background_color"  : "blue",
-  "theme_color"       : "#ACE",
+  "theme_color"       : "gray",
   "icons": [
     {
       "src"           : "/images/logo/logo016.png",
