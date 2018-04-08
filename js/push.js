@@ -4,7 +4,25 @@
   //Push notification button
   var fabPushElement = document.querySelector('.fab__push');
   var fabPushImgElement = document.querySelector('.fab__image');
-  
+
+    function askPermission() {
+        return new Promise(function (resolve, reject) {
+            var permissionResult = Notification.requestPermission(function (result) {
+                // 旧版本
+                resolve(result);
+            });
+            if (permissionResult) {
+                // 新版本
+                permissionResult.then(resolve, reject);
+            }
+        })
+            .then(function (permissionResult) {
+                if (permissionResult !== 'granted') {
+                    // 用户未授权
+                }
+            });
+    }
+
   //To check `push notification` is supported or not
   function isPushSupported() {
     //To check `push notification` permission is denied by user
@@ -141,5 +159,6 @@
       })
   }
 
+    askPermission();
   isPushSupported(); //Check for push notification support
 })(window);
