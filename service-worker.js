@@ -11,6 +11,7 @@ const
     '/css/styles.css',
     '/js/main.js',
     '/js/offlinepage.js',
+    '/js/push.js',
     '/images/logo/logo152.png'
   ].concat(offlineURL),
   installFilesDesirable = [
