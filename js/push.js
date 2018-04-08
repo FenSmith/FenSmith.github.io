@@ -10,12 +10,14 @@
     //To check `push notification` permission is denied by user
     if (Notification.permission === 'denied') {
       console.warn('User has blocked push notification.');
+        alert('User has blocked push notification.');
       return;
     }
 
     //Check `push notification` is supported or not
     if (!('PushManager' in window)) {
       console.error('Push notification isn\'t supported in your browser.');
+        alert('Push notification isn\'t supported in your browser.');
       return;
     }
 
@@ -140,6 +142,6 @@
         })
       })
   }
-    
+
   isPushSupported(); //Check for push notification support
 })(window);
